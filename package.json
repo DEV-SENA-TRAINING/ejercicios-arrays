@@ -1,0 +1,17 @@
+{
+  "name": "ejercicios-arrays",
+  "version": "1.0.0",
+  "description": "Ejercicios de práctica sobre arrays en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --json --outputFile=test-results.json || true",
+    "generate-report": "node generate-report.js",
+    "test-and-report": "npm run test && npm run generate-report"
+  },
+  "keywords": ["javascript", "arrays", "ejercicios"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
